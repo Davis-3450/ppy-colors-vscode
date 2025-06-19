@@ -1,0 +1,27 @@
+{
+  "name": "ppy-colours",
+  "displayName": "ppy Colours",
+  "description": "A theme scheme inspired by ppy's (osu!) colours, based on his JetBrains theme.",
+  "version": "1.0.0",
+  "publisher": "idk",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ppy Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ppy-dark-vscode.json"
+      },
+      {
+        "label": "ppy Light",
+        "uiTheme": "vs",
+        "path": "./themes/ppy-light-vscode.json"
+      }
+    ]
+  }
+}
